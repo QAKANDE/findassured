@@ -26,26 +26,36 @@ p {
 }
 
 #email-form {
-    width: 374px;
-    height: 60px;
-    margin-top: 4rem;
-    background: #ffffff;
-    box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.08);
+    display: block;
+    width: 100% !important;
+    height: 3rem;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
 }
 
 input::placeholder {
     font-family: 'Roboto', sans-serif;
-    margin-left: 1rem;
+    text-align: center;
 }
 
-input[type='text'] {
+input:active,
+input:focus {
+    outline: none;
+    border: none;
+    text-align: center;
+    color: #a3a0a5;
+}
+
+input[type='email'] {
     font-family: 'Roboto', sans-serif;
 }
 
 #signup-button {
     margin-top: 1rem;
     width: 374px;
-    height: 60px;
+    height: 3rem;
     background: #3fa2f7;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
     font-family: Merriweather;
@@ -145,6 +155,9 @@ input[type='text'] {
 }
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 653px) and (-webkit-min-device-pixel-ratio: 2) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -178,6 +191,9 @@ input[type='text'] {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -214,6 +230,9 @@ input[type='text'] {
 /* Portrait */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -247,6 +266,9 @@ input[type='text'] {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -281,6 +303,9 @@ input[type='text'] {
 /* Portrait */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -315,6 +340,9 @@ input[type='text'] {
 /* Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -346,6 +374,9 @@ input[type='text'] {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -379,6 +410,9 @@ input[type='text'] {
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -415,6 +449,9 @@ input[type='text'] {
 /* Portrait */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -451,6 +488,9 @@ input[type='text'] {
 /* Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -484,6 +524,9 @@ input[type='text'] {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    #left-col {
+        display: none;
+    }
     #findassured-text {
         margin-top: 5rem;
         font-style: normal;
@@ -518,26 +561,98 @@ input[type='text'] {
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     #findassured-text {
-        margin-top: 5rem;
+        margin-top: 15rem;
         font-style: normal;
         font-weight: 300;
-        font-size: 24px;
+        font-size: 34px;
         line-height: 30px;
         color: #000000;
     }
+    #comingsoon-text {
+        font-family: 'Pacifico', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 25px;
+        text-align: center;
+        color: #ada8b1;
+    }
+    #collect-email-text {
+        width: auto;
+        margin-top: 2rem;
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 26px;
+        color: #ada8b1;
+    }
     #email-form {
-        width: 674px;
+        width: 694px;
         height: 60px;
-        margin-top: 5rem;
+        margin-top: 8rem;
         background: #ffffff;
         box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.08);
     }
     #signup-button {
         margin-top: 1rem;
-        width: 674px;
-        margin-left: 0.5rem;
+        width: 694px;
         height: 60px;
         background: #3fa2f7;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 18px;
+        border: 0;
+    }
+    #security-tools {
+        width: auto;
+        height: 20px;
+        left: 50px;
+        top: 600px;
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 28px;
+        line-height: 20px;
+        color: #ada8b1;
+    }
+    #training-text {
+        width: auto;
+        height: 20px;
+        left: 360px;
+        top: 550px;
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 28px;
+        line-height: 20px;
+        color: #ada8b1;
+    }
+    #optimized-text {
+        top: 656px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 140%;
+        color: #ada8b1;
+    }
+    #interactive-training {
+        top: 616px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 140%;
+        color: #ada8b1;
+    }
+    #error-text {
+        width: 374px;
+        height: 60px;
+        background: red;
         box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
         font-family: Merriweather;
         font-style: normal;
@@ -545,5 +660,23 @@ input[type='text'] {
         font-size: 14px;
         line-height: 18px;
         border: 0;
+        margin-left: 2.3rem;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    #success-text {
+        width: 374px;
+        height: 60px;
+        background: #ada8b1;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 14px;
+        line-height: 18px;
+        border: 0;
+        margin-left: 2.3rem;
+        margin-top: 1rem;
+        padding-top: 1rem;
     }
 }

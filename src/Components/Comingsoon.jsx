@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-
 import illustration from '../Assets/Illustration.svg'
+import { Container } from 'react-bootstrap'
 
 class Comingsoon extends Component {
   state = {}
