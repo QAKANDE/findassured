@@ -23,7 +23,7 @@ class AboutUs extends Component {
             <Card.Img
               variant="top"
               src={trainingLogo}
-              style={{ width: '25%' }}
+              style={{ width: '15%' }}
               className="icons"
             />
             <Card.Body>
@@ -40,7 +40,7 @@ class AboutUs extends Component {
             <Card.Img
               variant="top"
               src={solutionLogo}
-              style={{ width: '25%' }}
+              style={{ width: '15%' }}
               className="icons"
             />
             <Card.Body>
@@ -57,7 +57,7 @@ class AboutUs extends Component {
             <Card.Img
               variant="top"
               src={simulationLogo}
-              style={{ width: '25%' }}
+              style={{ width: '15%' }}
               className="icons"
             />
             <Card.Body>
