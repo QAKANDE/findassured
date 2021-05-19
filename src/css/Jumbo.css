@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+#header-text {
+    margin-top: 12rem;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 160%;
+    text-align: center;
+    color: #0d3642;
+}
+
+#adopt-top-rated {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #969696;
+    margin-top: 1rem;
+}
+
+#notify-at-launch {
+    height: 26px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #1b5060;
+    margin-top: 3rem;
+}
+
+#notify-icon {
+    border: 2px solid #1b5060;
+}

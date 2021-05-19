@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+#on-findassured-text {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #ffb531;
+}
+
+#one-platform-for-adopting {
+    /* One platform for adopting more efficient security solutions */
+    width: 462px;
+    height: 84px;
+    left: 489px;
+    top: 1039px;
+    /* Heading/H2 */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    /* or 42px */
+    text-align: center;
+    /* Colors / Heading */
+    color: #0d3642;
+}
+
+.card {
+    border: 0 !important;
+    margin-top: 2rem;
+}
+
+.icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#training-txt {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #0d3642;
+}
+
+#training-txt-paragraph {
+    width: 320px;
+    height: 88px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #969696;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
-import '../css/Comingsoon.css'
+// import '../css/Comingsoon.css'
 import rightsvg from '../Assets/Illustration.svg'
 
 class Coming extends Component {

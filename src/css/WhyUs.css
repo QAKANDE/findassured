@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+#wrapper {
+    background: #fbfbfb;
+    border-radius: 16px;
+}
+
+#explore-icon {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+#left-col {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+#right-col {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#why-findassured-header {
+    width: 190px;
+    height: 29px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #ffb531;
+}
+
+#why-findassured-subheader {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #0d3642;
+}
+
+#why-findassured-paragragh {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    align-items: center;
+    /* Colors / Paragraph */
+    color: #969696;
+}
+
+#sign-up-text {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1b5060;
+}
