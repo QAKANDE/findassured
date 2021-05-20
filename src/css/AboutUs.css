@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 #on-findassured-text {
+    margin-top: 94.65px;
+    margin-bottom: 10px;
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 160%;
     letter-spacing: -0.03em;
@@ -11,20 +13,13 @@
 }
 
 #one-platform-for-adopting {
-    /* One platform for adopting more efficient security solutions */
-    width: 462px;
     height: 84px;
-    left: 489px;
-    top: 1039px;
-    /* Heading/H2 */
-    font-family: Poppins, sans-serif;
+    margin-bottom: 91.33px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 28px;
     line-height: 150%;
-    /* or 42px */
     text-align: center;
-    /* Colors / Heading */
     color: #0d3642;
 }
 
@@ -41,10 +36,11 @@
 }
 
 #training-txt {
+    margin-top: 29px;
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 160%;
     text-align: center;
     letter-spacing: -0.03em;
@@ -53,12 +49,125 @@
 }
 
 #training-txt-paragraph {
-    width: 320px;
     height: 88px;
     font-family: Poppins, sans-serif;
+    text-align: center;
     font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 16px;
-    line-height: 140%;
+    line-height: 160%;
     color: #969696;
+    margin-bottom: 160px;
+}
+
+
+/* Iphone 5/5E */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    #one-platform-for-adopting {
+        margin-bottom: 10rem;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 150%;
+        text-align: center;
+        color: #0d3642;
+    }
+    #training-txt {
+        margin-top: 29px;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        text-align: center;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+        color: #0d3642;
+    }
+    #training-txt-paragraph {
+        height: 88px;
+        font-family: Poppins, sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        color: #969696;
+        margin-bottom: 4rem;
+    }
+}
+
+
+/* Iphone 6 /7/8 plus*/
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    #one-platform-for-adopting {
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 150%;
+        text-align: center;
+        color: #0d3642;
+    }
+}
+
+
+/* Ipad*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    #training-txt {
+        margin-top: 29px;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 160%;
+        text-align: center;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+        color: #0d3642;
+    }
+    #training-txt-paragraph {
+        height: 88px;
+        font-family: Poppins, sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 160%;
+        color: #969696;
+        margin-bottom: 19rem;
+    }
+}
+
+
+/* Ipad pro*/
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    #training-txt {
+        margin-top: 29px;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 160%;
+        text-align: center;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
+        color: #0d3642;
+    }
+    #training-txt-paragraph {
+        height: 88px;
+        font-family: Poppins, sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 160%;
+        color: #969696;
+        margin-bottom: 10rem;
+    }
 }

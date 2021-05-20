@@ -1,4 +1,249 @@
-#landing-wrapper {
-    height: 860px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+h1,
+h2,
+h3,
+h4,
+p {
+    color: #0d3642;
+    font-family: Poppins, sans-serif;
+}
+
+a,
+a:link {
+    color: #1b5060;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+#hero {
+    margin: 0 auto;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+    margin-top: 20px;
     background-image: url('../Assets/Hero.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero .navigation {
+    width: 70%;
+    height: 12rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #dce0de;
+}
+
+#hero .navigation .navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#hero .navigation .navbar ul li {
+    list-style: none;
+    margin-left: 4rem;
+}
+
+#hero .navigation .navbar ul li a {
+    color: #969696;
+}
+
+#hero .navigation .navbar ul li:last-child a {
+    color: #1b5060;
+}
+
+#hero .navigation .navbar ul li:last-child {
+    background-color: #fff;
+    padding: 1.2rem 3.4rem;
+    border-radius: 100px;
+    font-weight: 600;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    color: #1b5060;
+}
+
+#hero .intro {
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hero .intro h1 {
+    font-size: 4.8rem;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+#hero .intro p {
+    height: 64px;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #969696;
+}
+
+#notify-at-launch-text {
+    color: #1b5060;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 225.58px;
+}
+
+
+/* Iphone 5/5E */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    #hero {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        background-image: url('../Assets/Hero.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #hero .navigation {
+        width: 100%;
+        height: 12rem;
+        margin: 0 auto;
+        border-bottom: 0.5px solid #dce0de;
+    }
+    #hero .navigation .navbar ul {
+        display: flex;
+        align-items: center;
+    }
+    #hero .navigation .navbar ul li {
+        list-style: none;
+        margin-left: 4rem;
+    }
+    #hero .navigation .navbar ul li a {
+        color: #969696;
+    }
+    #hero .navigation .navbar ul li:last-child a {
+        color: #1b5060;
+    }
+    #hero .navigation .navbar ul li:last-child {
+        background-color: #fff;
+        padding: 1.2rem 3.4rem;
+        border-radius: 100px;
+        font-weight: 600;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        color: #1b5060;
+    }
+    #hero .navigation .navbar ul li {
+        list-style: none;
+        margin-left: 1rem;
+    }
+    #hero .intro {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+    #hero .intro h1 {
+        font-size: 4.8rem;
+        line-height: 1.3;
+        font-weight: 500;
+    }
+    #hero .intro p {
+        height: 64px;
+        font-weight: normal;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 20px;
+        margin-top: 40px;
+        color: #969696;
+    }
+    #notify-at-launch-text {
+        color: #1b5060;
+        text-decoration: none;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-bottom: 125.58px;
+    }
+}
+
+
+/* Iphone x */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    #hero .intro h1 {
+        font-size: 2.8rem;
+        line-height: 1.3;
+        font-weight: 500;
+        text-align: center;
+    }
+    #hero .intro p {
+        text-align: center;
+        font-weight: normal;
+        font-size: 2rem;
+        margin-top: 40px;
+        color: #969696;
+    }
+}
+
+
+/* Ipad*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    #hero .navigation .navbar ul li a {
+        color: #969696;
+        font-size: 1.5rem;
+    }
+    #hero .intro {
+        margin-top: 20rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #hero .intro h1 {
+        font-size: 4rem;
+        line-height: 1.3;
+        font-weight: 500;
+        text-align: center;
+    }
+    #hero .intro p {
+        text-align: center;
+        font-weight: normal;
+        font-size: 2.1rem;
+        margin-top: 40px;
+        color: #969696;
+    }
+}
+
+
+/* Ipad pro*/
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    #hero .navigation .navbar ul li a {
+        color: #969696;
+        font-size: 2rem;
+    }
+    #hero .intro {
+        margin-top: 30rem;
+        margin-bottom: 6rem;
+        text-align: center;
+    }
+    #hero .intro h1 {
+        font-size: 7rem;
+        line-height: 1.3;
+        font-weight: 500;
+        text-align: center;
+    }
+    #hero .intro p {
+        text-align: center;
+        font-weight: normal;
+        font-size: 2.5rem;
+        margin-top: 40px;
+        color: #969696;
+    }
 }

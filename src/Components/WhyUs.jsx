@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import '../css/WhyUs.css'
-import explore from '../Assets/Explore Illustration.svg'
+import explore from '../Assets/Explore.svg'
 import solutionLogo from '../Assets/fluent_production-checkmark-24-regular.svg'
+import signUpLogo from '../Assets/signupicon.svg'
 
 class WhyUs extends Component {
   state = {}
@@ -34,7 +35,7 @@ class WhyUs extends Component {
 
               <a id="sign-up-text">
                 <p>
-                  Sign Up <img src={solutionLogo} />
+                  Sign Up <img src={signUpLogo} />
                 </p>
               </a>
             </Col>

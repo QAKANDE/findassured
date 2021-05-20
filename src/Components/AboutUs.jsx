@@ -11,11 +11,12 @@ class AboutUs extends Component {
     return (
       <div className="mt-5 container">
         <div className="d-flex justify-content-center">
-          <h1 id="on-findassured-text">On FindAssured</h1>
+          <h3 id="on-findassured-text">On FindAssured</h3>
         </div>
         <div className="d-flex justify-content-center">
           <h2 id="one-platform-for-adopting">
-            One platform for adopting more efficient security solutions{' '}
+            One platform for adopting more <br></br> efficient security
+            solutions
           </h2>
         </div>
         <CardDeck>
@@ -23,7 +24,7 @@ class AboutUs extends Component {
             <Card.Img
               variant="top"
               src={trainingLogo}
-              style={{ width: '15%' }}
+              style={{ width: '24px', height: '26.67px' }}
               className="icons"
             />
             <Card.Body>
@@ -40,7 +41,7 @@ class AboutUs extends Component {
             <Card.Img
               variant="top"
               src={solutionLogo}
-              style={{ width: '15%' }}
+              style={{ width: '24px', height: '26.67px' }}
               className="icons"
             />
             <Card.Body>
@@ -57,7 +58,7 @@ class AboutUs extends Component {
             <Card.Img
               variant="top"
               src={simulationLogo}
-              style={{ width: '15%' }}
+              style={{ width: '24px', height: '26.67px' }}
               className="icons"
             />
             <Card.Body>
