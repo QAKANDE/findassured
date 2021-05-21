@@ -15,6 +15,11 @@ a:link {
     font-family: Poppins, sans-serif;
 }
 
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #hero {
     margin: 0 auto;
     width: calc(100vw - 40px);
@@ -47,6 +52,7 @@ a:link {
 }
 
 #hero .navigation .navbar ul li a {
+    font-size: 1.6rem;
     color: #969696;
 }
 
@@ -61,6 +67,15 @@ a:link {
     font-weight: 600;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
     color: #1b5060;
+}
+
+#hero .navigation .navbar ul li:last-child:hover {
+    cursor: pointer;
+}
+
+#hero .navigation .navbar ul li a:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #hero .intro {
@@ -95,6 +110,187 @@ a:link {
     margin-bottom: 225.58px;
 }
 
+#modal-wrapper {
+    background-image: url('../Assets/Hero.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#close-modal-button {
+    text-align: right;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1b5060;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+#sign-up-text-modal {
+    padding: 5rem 2rem 2rem 2rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #969696;
+}
+
+#email-form {
+    width: 374px;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.08);
+    border: none;
+}
+
+input::placeholder {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+input:active,
+input:focus {
+    outline: none;
+    border: none;
+    text-align: center;
+    color: #a3a0a5;
+}
+
+input[type='email'] {
+    font-family: Poppins;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#message-email {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.08);
+    border: none;
+}
+
+#send-message-form {
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.08);
+    border: none;
+}
+
+textarea::placeholder {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+textarea:active,
+textarea:focus {
+    outline: none;
+    border: none;
+    text-align: center;
+    color: #a3a0a5;
+}
+
+textarea[type='text'] {
+    font-family: Poppins;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#sendMessageButton {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    width: 374px;
+    height: 60px;
+    background: #1b5060;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0;
+}
+
+#signup-button {
+    margin-top: 1rem;
+    width: 374px;
+    height: 60px;
+    background: #1b5060;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0;
+}
+
+#sign-up-last-text-modal {
+    padding: 2rem 2rem 5rem 2rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #969696;
+}
+
+#empty-field {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: red;
+}
+
+#already-exist-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: grey;
+}
+
+#success-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: green;
+}
+
 
 /* Iphone 5/5E */
 
@@ -110,13 +306,14 @@ a:link {
     }
     #hero .navigation {
         width: 100%;
-        height: 12rem;
-        margin: 0 auto;
-        border-bottom: 0.5px solid #dce0de;
+        height: auto !important;
+        flex-direction: column;
+        padding: 3rem 0;
     }
     #hero .navigation .navbar ul {
         display: flex;
         align-items: center;
+        margin-top: 2rem;
     }
     #hero .navigation .navbar ul li {
         list-style: none;
@@ -148,16 +345,15 @@ a:link {
         text-align: center;
     }
     #hero .intro h1 {
-        font-size: 4.8rem;
+        font-size: 2.8rem;
         line-height: 1.3;
         font-weight: 500;
+        text-align: center;
     }
     #hero .intro p {
-        height: 64px;
+        text-align: center;
         font-weight: normal;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-size: 20px;
+        font-size: 2rem;
         margin-top: 40px;
         color: #969696;
     }
@@ -171,24 +367,52 @@ a:link {
         margin-top: 100px;
         margin-bottom: 125.58px;
     }
-}
-
-
-/* Iphone x */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-    #hero .intro h1 {
-        font-size: 2.8rem;
-        line-height: 1.3;
+    #email-form {
+        width: 300px;
+        height: 6rem;
+        background: #ffffff;
+        box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.08);
+        border: none;
+    }
+    input::placeholder {
+        font-family: Poppins;
+        font-style: normal;
         font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
         text-align: center;
     }
-    #hero .intro p {
+    input:active,
+    input:focus {
+        outline: none;
+        border: none;
         text-align: center;
-        font-weight: normal;
-        font-size: 2rem;
-        margin-top: 40px;
-        color: #969696;
+        color: #a3a0a5;
+    }
+    input[type='email'] {
+        font-family: Poppins;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    #signup-button {
+        margin-top: 1rem;
+        width: 100%;
+        height: 6rem;
+        background: #1b5060;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        border: 0;
     }
 }
 

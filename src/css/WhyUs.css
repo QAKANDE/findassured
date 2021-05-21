@@ -132,22 +132,6 @@
 }
 
 
-/* Iphone 6 /7/8*/
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-    #why-findassured-paragragh {
-        font-weight: normal;
-        font-size: 14px;
-        font-family: Poppins;
-        font-style: normal;
-        line-height: 160%;
-        text-align: center;
-        color: #969696;
-        margin-bottom: 10rem;
-    }
-}
-
-
 /* Ipad*/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {

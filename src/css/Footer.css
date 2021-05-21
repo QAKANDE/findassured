@@ -1,0 +1,43 @@
+#footer {
+    margin: 4rem 2rem;
+    background-color: #fbfbfb;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .center {
+    margin: 0 5rem;
+}
+
+#footer .right {
+    display: flex;
+}
+
+#footer .right a {
+    margin-left: 2.5rem;
+    color: inherit;
+}
+
+
+/* Iphone 5/5E */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    #footer {
+        margin: 2rem 1rem 1rem 1rem;
+        padding: 3rem 0;
+        background-color: #fbfbfb;
+        flex-direction: column-reverse;
+    }
+    #footer .center {
+        padding: 1.5rem 0rem;
+    }
+    #footer .right {
+        display: flex;
+    }
+    #footer .right a {
+        margin-left: 2.5rem;
+        color: inherit;
+    }
+}

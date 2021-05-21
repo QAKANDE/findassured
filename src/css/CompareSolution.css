@@ -1,0 +1,118 @@
+#journey {
+    margin: 4rem 2rem;
+    padding-top: 13rem;
+    background-color: #0d3642;
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    /* min-height: 80rem; */
+}
+
+#journey .compare-left {
+    position: relative;
+}
+
+#journey .compare-left img {
+    position: absolute;
+    bottom: 0;
+}
+
+#journey .compare-right {
+    margin-right: 30rem;
+    padding-bottom: 13rem;
+    width: 55rem;
+}
+
+#journey .compare-right .compare-item {
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 3rem;
+}
+
+#journey .compare-right .compare-item div {
+    margin: 0 1.5rem;
+}
+
+#journey .compare-right .compare-item h4 {
+    color: #ffb531;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+#journey .compare-right .compare-item p {
+    color: #dce0de;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+
+/* Iphone 5/5E */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    #journey {
+        margin: 0 auto;
+        padding-top: 8rem;
+        margin: 3rem 1rem;
+    }
+    #journey .compare-left {
+        display: none;
+    }
+    #journey .compare-right {
+        width: 100% !important;
+        margin-right: 0rem;
+        padding-bottom: 13rem;
+    }
+    #journey .compare-right .compare-item {
+        display: flex;
+        margin-bottom: 3rem;
+    }
+    #journey .compare-right .compare-item div {
+        margin: 0 1.5rem;
+    }
+    #journey .compare-right .compare-item h4 {
+        color: #ffb531;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+    #journey .compare-right .compare-item p {
+        color: #dce0de;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+}
+
+
+/* Ipad*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    #journey {
+        margin: 0 auto;
+        padding-top: 8rem;
+        margin: 3rem 1rem;
+    }
+    #journey .compare-left {
+        display: none;
+    }
+    #journey .compare-right {
+        margin: auto;
+        width: 50%;
+        padding-bottom: 13rem;
+    }
+    #journey .compare-right .compare-item {
+        display: flex;
+        margin-bottom: 3rem;
+    }
+    #journey .compare-right .compare-item div {
+        margin: 0 1.5rem;
+    }
+    #journey .compare-right .compare-item h4 {
+        color: #ffb531;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+    #journey .compare-right .compare-item p {
+        color: #dce0de;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+}
